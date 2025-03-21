@@ -1,6 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <style>
+    /* Ensure html and body take full height */
+    html, body {
+      height: 100%;
+      margin: 0;
+    }
+
+    /* Use Flexbox on the body to center content */
+    body {
+      display: flex;
+      justify-content: center; /* Horizontal centering */
+      align-items: center;     /* Vertical centering */
+      text-align: center;      /* Center text within the h1 */
+      padding: 20px;           /* Optional padding for better spacing on small devices */
+    }
+
+    h1 {
+      font-size: 2em;          /* Responsive font-size that can be adjusted as needed */
+      margin: 0;               /* Remove default margin */
+    }
+    
+    /* Media query for very small devices if additional tweaks are needed */
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 1.5em;
+      }
+    }
+  </style>
   <meta charset="utf-8">
   <title>Random Redirect</title>
   <script>
@@ -19,6 +47,7 @@
   </script>
 </head>
 <body>
+  <h1>FUCK OFF</h1>
   <!-- Fallback message for browsers with JavaScript disabled -->
   <noscript>
     <p>JavaScript is disabled in your browser. Please enable JavaScript to be redirected automatically.</p>
