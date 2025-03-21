@@ -1,53 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <style>
-    /* Ensure html and body take full height */
-    html, body {
-      height: 100%;
-      margin: 0;
-    }
-
-    /* Use Flexbox on the body to center content */
-    body {
-      display: flex;
-      justify-content: center; /* Horizontal centering */
-      align-items: center;     /* Vertical centering */
-      text-align: center;      /* Center text within the h1 */
-      padding: 20px;           /* Optional padding for better spacing on small devices */
-    }
-
-    h1 {
-      font-size: 2em;          /* Responsive font-size that can be adjusted as needed */
-      margin: 0;               /* Remove default margin */
-    }
-    
-    /* Media query for very small devices if additional tweaks are needed */
-    @media (max-width: 480px) {
-      h1 {
-        font-size: 1.5em;
-      }
-    }
-  </style>
   <meta charset="utf-8">
   <title>Random Redirect</title>
   <script>
     window.onload = function() {
       // Define an array with your desired URLs
       var urls = [
-        "https://premisubsdotcom.vercel.app/accs/grammarly/gramarly1.json",
+        "https://premisubsdotcom.vercel.app/accs/net/net1.json",
       ];
       
       // Generate a random index based on the array length
       var randomIndex = Math.floor(Math.random() * urls.length);
       
       // Redirect to the randomly selected URL
-      //window.location.href = urls[randomIndex];
+      window.location.href = urls[randomIndex];
     }
   </script>
 </head>
 <body>
-  <h1>FUCK OFF</h1>
   <!-- Fallback message for browsers with JavaScript disabled -->
   <noscript>
     <p>JavaScript is disabled in your browser. Please enable JavaScript to be redirected automatically.</p>
