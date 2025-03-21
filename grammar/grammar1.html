@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Random Redirect</title>
+  <script>
+    window.onload = function() {
+      // Define an array with your desired URLs
+      var urls = [
+        "https://premisubsdotcom.vercel.app/accs/grammarly/gramarly1.json",
+      ];
+      
+      // Generate a random index based on the array length
+      var randomIndex = Math.floor(Math.random() * urls.length);
+      
+      // Redirect to the randomly selected URL
+      //window.location.href = urls[randomIndex];
+    }
+  </script>
+</head>
+<body>
+  <!-- Fallback message for browsers with JavaScript disabled -->
+  <noscript>
+    <p>JavaScript is disabled in your browser. Please enable JavaScript to be redirected automatically.</p>
+  </noscript>
+</body>
+</html>
